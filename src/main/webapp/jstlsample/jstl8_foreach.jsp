@@ -29,16 +29,16 @@ request.setAttribute("name4", nameList2);
 ${name } <br />
 </c:forEach>
 <hr />
-<%-- <c:forEach var="name" items="${name3 }">
+<c:forEach var="name" items="${name3 }">
 ${name } <br />
 </c:forEach> --%>
 <%-- <c:forEach var="name" items="${name3 }" varStatus="st">
 <br /> ${st.count } :<c:out value="${name }"/>
 ${name } <br />
 </c:forEach> --%>
-<%-- <c:forEach var="list3" items="${name3 }" varStatus="st">
+<c:forEach var="list3" items="${name3 }" varStatus="st">
 <br /> ${list3 } : ${name[st.index] }
-</c:forEach> --%>
+</c:forEach>
 <c:forEach begin="1" end="10" var="i" varStatus="st">
 ${i } <br />
 </c:forEach>
